@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="main_base@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="main_base">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="base"/>
+    <schema id="4" parent="1" name="baza"/>
+    <schema id="5" parent="1" name="book"/>
+    <schema id="6" parent="1" name="Cinemas01_ex"/>
+    <schema id="7" parent="1" name="Cinemas_01"/>
+    <schema id="8" parent="1" name="cinemas_ex"/>
+    <schema id="9" parent="1" name="exam"/>
+    <schema id="10" parent="1" name="exam_2"/>
+    <schema id="11" parent="1" name="finalCountdown"/>
+    <schema id="12" parent="1" name="information_schema"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="performance_schema"/>
+    <schema id="15" parent="1" name="pierwsza_baza"/>
+    <schema id="16" parent="1" name="products1_ex"/>
+    <schema id="17" parent="1" name="products2_ex"/>
+    <schema id="18" parent="1" name="products3_ex"/>
+    <schema id="19" parent="1" name="products_ex"/>
+    <schema id="20" parent="1" name="programming_school"/>
+    <schema id="21" parent="1" name="sys"/>
+    <schema id="22" parent="1" name="test"/>
+    <schema id="23" parent="1" name="test_base"/>
+    <schema id="24" parent="1" name="wtf"/>
+    <schema id="25" parent="1" name="test1"/>
+    <table id="26" parent="2" name="Wniosek"/>
+    <column id="27" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="26" name="data">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="29" parent="26" name="druzyna">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="26" name="skldajacy">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="31" parent="26" name="status">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="32" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

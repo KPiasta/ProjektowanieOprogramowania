@@ -22,7 +22,8 @@
     <div>
 
 
-        <h1><em>Wybierz akcje którą chcesz wykonac...</em></h1>
+            <h1><em>WROCCER</em></h1>
+            <h1><em> Wybierz akcje którą chcesz wykonac...</em></h1>
 
         <button type="submit" class=".center-block" id="button1">Zarzadzanie rozrywkami</button>
         <button type="submit" class=".center-block" id="button">Weryfikacja wniosku</button>

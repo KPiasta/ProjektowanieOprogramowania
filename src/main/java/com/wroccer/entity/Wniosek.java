@@ -15,12 +15,12 @@ public class Wniosek {
     String skladajacy;
     Status status;
 
-    public List<Zawodnik> getZawodnik() {
-        return zawodnik;
+    public List<Zawodnik> getZawodnicy() {
+        return zawodnicy;
     }
 
-    @OneToMany
-    List<Zawodnik> zawodnik;
+    @OneToMany(fetch = FetchType.EAGER, cascade= {CascadeType.MERGE})
+    List<Zawodnik> zawodnicy;
 
     public Long getId() {
         return id;

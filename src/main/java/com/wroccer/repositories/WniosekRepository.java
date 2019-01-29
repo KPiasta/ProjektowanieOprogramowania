@@ -1,7 +1,7 @@
 package com.wroccer.repositories;
 
+import com.wroccer.entity.Status;
 import com.wroccer.entity.Wniosek;
-import com.wroccer.entity.Zawodnik;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,5 +13,6 @@ import java.util.List;
 public interface WniosekRepository extends JpaRepository<Wniosek, Long> {
     Wniosek findById(Long id);
     List<Wniosek> findAll();
+    List<Wniosek> findByStatus(Status status);
 
 }

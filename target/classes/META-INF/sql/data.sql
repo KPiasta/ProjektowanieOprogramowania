@@ -2,7 +2,7 @@
 INSERT INTO Wniosek VALUES (1,'2018-12-12','Pogon Wroclaw','Maciej Testowy',1);
 INSERT INTO Wniosek VALUES (2,'2018-11-03','Mistrzownie Doliny','Jakub Zielony',1);
 INSERT INTO Wniosek VALUES (3,'2019-01-07','Wymiatacze z Mordoru','Zenon Martynik',1);
-INSERT INTO Wniosek VALUES (4,'2019-01-01','MKFT','Ewa Dereś',1);
+INSERT INTO Wniosek VALUES (4,'2019-01-01','MKFT','Ewa Deres',1);
 
 
 

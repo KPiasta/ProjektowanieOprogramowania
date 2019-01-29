@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
+    <script><%@include file="/WEB-INF/js/wnioski.js"%> </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Wnioski</title>
 
@@ -31,16 +31,11 @@
         <h3>Złożone wnioski</h3>
     </div>
     <div style="float:RIGHT;">
-
-        <form method="post">
-            <fieldset>
-                <input type="checkbox"> Zaakceptowane
-                <input type="checkbox"> Niezaakceptowane<br>
-                <input type="checkbox"> Niezweryfikowane
-                <input type="checkbox"> Odrzucone<br>
-                <input type="submit"  value="Filtruj" />
-            </fieldset>
-        </form>
+        Wyswietl wnioski:
+        <button id="f0" type="submit">Zaakceptowane</button>
+        <button id="f1" type="submit">Niezaakceptowane</button>
+        <button id="f2" type="submit">Niezweryfikowane</button>
+        <button id="f3" type="submit">Odrzucone</button>
     </div>
 </div>
 
@@ -60,8 +55,8 @@
                 <tr>
                     <td>${w.druzyna}</td>
                     <td>${w.data}</td>
-                    <td>${skladajacy}</td>
-                    <td>${status}</td>
+                    <td>${w.skladajacy}</td>
+                    <td>${w.status}</td>
                     <td><a href="http://localhost:8080/wnioski/${w.id}"> Weryfikuj</a></td>
                 </tr>
             </c:forEach>

@@ -1,33 +1,63 @@
 package com.wroccer.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
+import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Zawodnik {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    int id;
 
-    String Imie;
-    String Nazwisko;
+    String imie;
+    String nazwisko;
+    String data_urodzenia;
+    String pozycja;
+
 
     public String getImie() {
-        return Imie;
+        return imie;
     }
 
     public void setImie(String imie) {
-        Imie = imie;
+        this.imie = imie;
     }
 
+
     public String getNazwisko() {
-        return Nazwisko;
+        return nazwisko;
     }
 
     public void setNazwisko(String nazwisko) {
-        Nazwisko = nazwisko;
+        this.nazwisko = nazwisko;
     }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getData_urodzenia() {
+        return data_urodzenia;
+    }
+
+    public void setData_urodzenia(String data_urodzenia) {
+        this.data_urodzenia = data_urodzenia;
+    }
+
+    public String getPozycja() {
+        return pozycja;
+    }
+
+    public void setPozycja(String pozycja) {
+        this.pozycja = pozycja;
+    }
+
 }
+

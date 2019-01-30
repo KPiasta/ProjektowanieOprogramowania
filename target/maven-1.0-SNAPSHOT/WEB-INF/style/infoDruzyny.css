@@ -1,0 +1,41 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    padding: 15px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+td {
+    padding: 10px;     /* 10px top & bottom padding, 0px left & right */
+    border-width: 1px; /*  1px top & bottom border,  0px left & right */
+    border-color: #000;
+    border-style: solid;
+}
+
+button {
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.result {
+    border: 1px solid green;
+    padding: 20px;
+    animation: flash 1000ms ease-in;
+}
+
+@keyframes flash {
+    from {
+        opacity: 1;
+    }
+    to {opacity: 0;
+}}

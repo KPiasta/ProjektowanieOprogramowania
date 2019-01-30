@@ -7,31 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e6a51a9-9762-4b6f-bde7-859166848d48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wniosek.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wnioski.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/DruzynaController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/dao/DruzynaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Druzyna.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/repositories/DruzynaRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/druzyny.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/style/druzyny.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/style/infoDruzyny.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/druzyny.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infoDruzyny.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wroccer/controllers/WniosekController.class" afterPath="$PROJECT_DIR$/target/classes/com/wroccer/controllers/WniosekController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wroccer/dao/WniosekDao.class" afterPath="$PROJECT_DIR$/target/classes/com/wroccer/dao/WniosekDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wroccer/entity/Wniosek.class" afterPath="$PROJECT_DIR$/target/classes/com/wroccer/entity/Wniosek.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wroccer/repositories/WniosekRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/wroccer/repositories/WniosekRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wroccer/entity/Zawodnik.class" afterPath="$PROJECT_DIR$/target/classes/com/wroccer/entity/Zawodnik.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/controllers/WniosekController.class" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/controllers/WniosekController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/dao/WniosekDao.class" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/dao/WniosekDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/entity/Wniosek.class" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/entity/Wniosek.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/repositories/WniosekRepository.class" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/repositories/WniosekRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/entity/Zawodnik.class" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/wroccer/entity/Zawodnik.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wroccer/dao/WniosekDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/dao/WniosekDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Wniosek.java" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Wniosek.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wroccer/repositories/WniosekRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/repositories/WniosekRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java" afterPath="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wniosek.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wniosek.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wnioski.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wnioski.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/target/classes/META-INF/sql/data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/views/wniosek.jsp" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/views/wniosek.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/views/wnioski.jsp" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/views/wnioski.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/wniosek.jsp" afterPath="$PROJECT_DIR$/target/test-classes/wniosek.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/wnioski.jsp" afterPath="$PROJECT_DIR$/target/test-classes/wnioski.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/js/start.js" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/js/start.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,32 +68,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wnioski.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wnioski.js">
+      <file leaf-file-name="Druzyna.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Druzyna.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="7" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +83,8 @@
       <file leaf-file-name="Zawodnik.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,48 +92,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WniosekController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java">
+      <file leaf-file-name="druzyny.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/druzyny.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wnioski.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wnioski.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="140">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wniosek.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Wniosek.java">
+      <file leaf-file-name="infoDruzyny.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infoDruzyny.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wniosek.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wniosek.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#h2#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,18 +115,58 @@
       <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wniosek.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wniosek.js">
+      <file leaf-file-name="infoDruzyny.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/style/infoDruzyny.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            <state relative-caret-position="90">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/init/AppInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="druzyny.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/style/druzyny.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="druzyny.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/druzyny.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1025">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -206,12 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/place/addPlace.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/yourRatesAndOpinions.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/rate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citting/controllers/PlaceController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/allPlaces.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/history.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/opinionList.jsp" />
@@ -238,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/citting/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citting/entity/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citting/controllers/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/citting/dao/WniosekDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citting/controllers/WniosekController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citting/entity/Wniosek.java" />
@@ -247,16 +233,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wroccer/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Wniosek.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/wroccer/repositories/WniosekRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wnioski.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wnioski.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/wroccer/dao/WniosekDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wniosek.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wniosek.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Druzyna.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/repositories/DruzynaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/dao/DruzynaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/controllers/DruzynaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/druzyny.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infoDruzyny.jsp" />
       </list>
     </option>
   </component>
@@ -315,10 +308,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +344,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wroccer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wroccer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PO" type="b2602c69:ProjectViewProjectNode" />
@@ -443,7 +445,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PO" type="b2602c69:ProjectViewProjectNode" />
@@ -469,25 +471,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exam5/WRO_JAV_S_01_M5_Exam/Exam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PO-gotowe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last.edited.regexp" value="asdasdasd" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/style" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/style" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/style" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/js" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wroccer.dao" />
+      <recent name="com.wroccer.repositories" />
+      <recent name="com.wroccer.entity" />
+      <recent name="com.wroccer.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/style" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/style" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -720,14 +728,17 @@
       <workItem from="1548609212350" duration="356000" />
       <workItem from="1548606011568" duration="16215000" />
       <workItem from="1548698503915" duration="2823000" />
+      <workItem from="1548790876146" duration="378000" />
+      <workItem from="1548857772166" duration="3216000" />
+      <workItem from="1548862178563" duration="2244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389772000" />
+    <option name="totallyTimeSpent" value="395610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="43" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -750,9 +761,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8024883" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7231726" sideWeight="0.49721116" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7216174" sideWeight="0.49721116" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3498008" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30438247" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -786,8 +797,14 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/druzyny.jsp</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -796,15 +813,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/showAccount.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/converters/CategoryConverter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/controllers/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/converters/QuestionConverter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/repositories/UserPlaceRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/controllers/PlaceController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/controllers/UserAccountController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/dao/CategoryDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/map.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/entity/UserPlace.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citting/entity/Category.java" />
@@ -834,34 +842,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/style/city1.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/start.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/init/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/style/start.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,7 +870,7 @@
         <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -904,9 +888,9 @@
         <state relative-caret-position="36">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,16 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/wnioski.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="0">
           <caret line="12" column="7" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -945,43 +921,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wniosek.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="702">
           <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h2#1;n#div#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wnioski.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
+        <state relative-caret-position="198">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Wniosek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="342">
           <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -991,11 +947,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/controllers/WniosekController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="18">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/repositories/DruzynaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/dao/DruzynaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/controllers/DruzynaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Zawodnik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/style/druzyny.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/druzyny.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/entity/Druzyna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/infoDruzyny.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/druzyny.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wroccer/init/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/style/infoDruzyny.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -15,12 +15,7 @@ public class DruzynaDao {
     @PersistenceContext
     EntityManager entityManager;
 
-    public Druzyna addWniosek(Druzyna entity) {
-        entityManager.persist(entity);
-        return entity;
-    }
-
-    public void update(Druzyna entity) {
+     public void update(Druzyna entity) {
         entityManager.merge(entity);
     }
 

@@ -2,7 +2,7 @@ package com.wroccer.entity;
 
 
 import javax.persistence.*;
-import java.util.Date;
+
 
 @Entity
 public class Zawodnik {

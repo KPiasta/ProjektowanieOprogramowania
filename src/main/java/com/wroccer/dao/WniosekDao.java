@@ -14,11 +14,6 @@ public class WniosekDao {
     @PersistenceContext
     EntityManager entityManager;
 
-    public Wniosek addWniosek(Wniosek entity) {
-        entityManager.persist(entity);
-        return entity;
-    }
-
     public void update(Wniosek entity) {
         entityManager.merge(entity);
     }
